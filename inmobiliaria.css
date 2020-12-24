@@ -1,0 +1,165 @@
+.logotipo {
+    float: left;
+}
+body {
+    background-color: lightgray;
+}
+.idioma {
+float: right;
+}
+.idioma p a {
+    text-decoration: none;
+    color: black;
+}
+.enlace {
+    float: right;
+}
+.enlace p a {
+    text-decoration: none;
+    color: black;
+}
+.titulo {
+    padding-top: 20%;
+    padding-left: 10%;
+    padding-right: 35%;
+
+}
+.caixa1 {
+   margin: -299px 4% 10% 0%;
+    background-color: white;
+    border-radius: 2px;
+    padding: 0% 7%;
+    text-align: center;
+    color: #707070!important;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    max-width: 360px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.24);
+    border-radius: 6px;
+    float: right;
+}
+.caixa label {
+    margin: 1% 1% 1% 1%;
+}
+.caixa1 p {
+    color: #707070;
+    font-size: 26px;
+}
+.euribor {
+    color: #707070;
+    font-size: 14px!important;
+    font-weight: 700;
+}
+.euribor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.caixa1 h5 {
+    font-size: 40px;
+    font-family: 'Merriweather',serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Muli',Helvetica,Arial,Lucida,sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .et_quote_content blockquote p, .et_pb_slide_description .et_pb_slide_title {
+    font-weight: bold;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 1.1em;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #43688f;
+}
+h1, h2, h3, h4, h5, h6 {
+    padding-bottom: 1px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1em;
+}
+.percentatge {
+    margin: 1% 1% 1% 1%;
+    font-size: 48px;
+}
+.campo {
+    padding: 1% 8% 8% 20%; 
+    margin: 1% 7% 1% 1%;
+}
+form input {
+    font-size: 16px;
+}
+/* CSS HIPOTECA*/
+
+.calculator-content {
+  margin-right: 350px;
+  background: white;
+  /* border: 1px solid #eee; */
+  margin-top: 20px;
+}   
+.calculator-content .calculator-label {
+  line-height: 1em;
+  padding: 20px 10px 10px 10px;
+  border: 1px solid #eee;
+  margin-bottom: -1px;
+  margin-right: 25%;
+}
+.calculator-content .calculator-label input {
+  float: right;
+  background: #eee;
+  border: 0;
+  padding: 7px 10px;
+  width: 20%;
+  margin-top: -5px;
+}
+.calculator-content .calculator-label strong {
+  font-size: 1.3em;
+  color: rgb(0, 96, 156);
+  padding-left: 5px;
+}
+.sbm-calculate {
+  background: rgb(0, 96, 156) !important;
+  color: white;
+  box-sizing: content-box;
+}
+.logotipo {
+    float: left;
+    margin-bottom: 0%;
+}
+.idioma {
+float: right;
+}
+.idioma p a {
+    text-decoration: none;
+    color: black;
+}
+.enlace {
+    float: right;
+}
+.enlace p a {
+    text-decoration: none;
+    color: black;
+}
+.titulo {
+    padding-top: 20%;
+    padding-left: 10%;
+    padding-right: 35%;
+    margin-right: 60%;
+}
+.pull-right-leadform {
+    margin-right: 20%;
+    float: right;
+    margin-top: -2%; 
+}
+fieldset {
+    padding-right: 25%;
+}
+fieldset input {
+    padding: 0% 35% 2% 0%;
+    margin-top: 10%;
+}
+textarea {
+    padding: 0% 35% 2% 0%;
+    margin-top: 10%;
+}

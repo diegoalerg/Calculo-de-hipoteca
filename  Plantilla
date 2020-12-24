@@ -1,0 +1,72 @@
+<?php 
+class cuenta {
+    //Atributos
+    public $titular;
+    public $saldo =0;
+    public $interes =0;
+        //Constructor
+        function _construct($_titular,$_saldo,$_interes) {
+            echo 'OBJETO CUENTA INSTANCIADO <br/>';
+            //Accediendo a la variables
+            $this->titular = $_titular;
+            $this->saldo = $_saldo;
+            $this->interes =$_interes;
+            echo 'Creado objeto cuenta de $this->titular <br/>';
+         
+        }
+        //Destructor
+        function _destruct() {
+            echo 'OBJETO CUENTA ELIMINADO';
+        }
+    //Metodos
+    function ingresar($_cantidad) {
+        $this->saldo += $_cantidad;
+    }
+    function retirar($_cantidad) {}
+
+}
+
+//Instanciación de la clase cuenta.
+    $obj = new cuenta("Diego Rodriguez", 1200.50, 0.25);
+//Llamada a los métodos
+    $obj->ingresar(1500);
+ ?>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title> Ficheros </title>
+</head>
+<style type="text/css">
+	body {
+		background-color: lightblue;
+	}
+</style>
+
+<body>
+	<header>
+		<h1> Ficheros Ejercicio 5</h1>
+	</header>
+	<body>
+		<?php if ((count($_POST)>0 && $respuesta == true) || isset($monto_ingresado)) : 
+			echo "El ultimo inicio de sesion fue ".$fecha."<br>";
+			echo $mensaje; ?>
+		<br>
+
+	<form action="ingreso.php" method="post">
+			<input type="submit" name="ingreso" value="Ingreso">
+	</form>
+	<br>
+	<form action="reintegro.php" method="post">
+				<input type="submit" name="reintegro" value="Reintegro">
+	</form>
+	<?php  else : ?>
+		<p> ACCESO INVALIDO </p>
+	<?php  endif ?>	
+	</body>
+	<footer>
+		<small>Plantilla HTMl5 - CIPSA <time datetime="2020">2020</time></small>
+	</footer>
+</body>
+</html>
